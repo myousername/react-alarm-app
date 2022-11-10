@@ -1,0 +1,12 @@
+#clock{
+  margin: 2rem auto 2rem auto;
+  text-align: center;
+}
+
+
+
+p{
+  display: inline;
+  font-size: 3rem;
+  font-weight: 600;
+}

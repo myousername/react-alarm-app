@@ -1,0 +1,30 @@
+
+.addAlarm{
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+.addForm{
+  width: 80%;
+  height: 15%;
+  display: flex;
+}
+
+#addAlarm{
+  width: 50%;
+}
+
+
+
+ul{
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: green;
+}
