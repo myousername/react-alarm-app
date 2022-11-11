@@ -3,4 +3,12 @@ li{
   height: 8vh;
   width: 100%;
   border: 1px solid black;
+  flex-direction: row;
+}
+#trash-button{
+  height: 20px;
+  width: 20px;
+}
+#trash-button:hover{
+  cursor: pointer;
 }

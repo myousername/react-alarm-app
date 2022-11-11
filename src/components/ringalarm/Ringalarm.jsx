@@ -1,21 +1,16 @@
 import React from 'react'
 import './ringalarm.css'
 
-const Ringalarm = ({alarmslist,ringalarmState,setRingAlarmState}) => {
+const Ringalarm = ({alarmslist,ringAlarmState,setRingAlarmState}) => {
   
-  let currentAlarm = null,currentTime=null
-  if(ringalarmState){
-   currentAlarm= (alarmslist.filter((index) => (index === ringalarmState)))[0];
-   currentTime = currentAlarm.alarmTime;
-  }
+  
   
   return(
     <div>
-      {ringalarmState? (
+      {ringAlarmState? (
         <div id="ring-screen">
           <h1>ALARM!!</h1>
-          <h4>Alarm {ringalarmState+1}</h4>
-          <h3>{currentTime}</h3>
+          <h4>Alarm</h4>
         </div>
       ) : (
         <></>

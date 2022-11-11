@@ -23,7 +23,6 @@ const AddAlarm = ({newAlarmTime,setNewAlarmTime,checkedState,setCheckedState,han
         <input
           autoFocus
           ref={inputRef}
-          id='addAlarm'
           type='text'
           placeholder='Add Alarm'
           required
@@ -49,14 +48,15 @@ const AddAlarm = ({newAlarmTime,setNewAlarmTime,checkedState,setCheckedState,han
             );
           })}
         </ul>
-      </form>
-      <button
+        <button
           type='submit'
           aria-label='Add Alarm'
           onClick={() => inputRef.current.focus()}
-      >
+        >
           <FaPlus />
-      </button>
+        </button>
+      </form>
+      
 
     </div>
   )

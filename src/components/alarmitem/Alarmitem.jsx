@@ -4,20 +4,24 @@ import {FaTrashAlt} from 'react-icons/fa'
 
 const AlarmItem = ({item,handleDelete}) => {
   return (
-    <div>
+    <>
       <li>
         <p>
           {item.alarmTime},
           {item.days}
         </p>
-        <FaTrashAlt
+        <div>
+          <FaTrashAlt
                   onClick={() => handleDelete(item.id)}
                   role="button"
+                  id='trash-button'
                   tabIndex="0"
                   aria-label={`Delete ${item.id}`}
-        />
+          />
+        </div>
+        
       </li>
-    </div>
+    </>
   )
 }
 

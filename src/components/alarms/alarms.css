@@ -3,6 +3,5 @@ ul{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: minmax(400px,auto);
   justify-content: flex-start;
 }

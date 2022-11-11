@@ -6,22 +6,31 @@
 }
 
 .addForm{
-  width: 80%;
+  width: 100%;
   height: 15%;
   display: flex;
+  justify-content: space-between;
 }
 
-#addAlarm{
-  width: 50%;
+input{
+  width: 100%;
 }
 
-
+li{
+  display: flex;
+  flex-direction: column;
+}
 
 ul{
   all: unset;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 60%;
+}
+
+button{
+  width: 10%;;
 }
 
 button:hover{
